@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Text } from 'pcln-design-system';
+// import { Text } from 'pcln-design-system';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
