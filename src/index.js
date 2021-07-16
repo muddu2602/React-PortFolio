@@ -1,12 +1,23 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-
-
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Text } from 'pcln-design-system';
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Projects from './components/Projects';
+import Education from './components/Education';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
+import './index.css';
 const App = () => {
     return (
-        <div>
-            Hello Abhi
-        </div>
+        <main className="text-gray-400 bg-gray-900 body-font">
+            <Navbar />
+            <About />
+            <Projects />
+            <Education />
+            <Skills />
+            <Contact />
+        </main>
     );
 }
 
