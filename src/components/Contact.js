@@ -14,7 +14,7 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3201.179864104892!2d84.8984212186992!3d22.253051537697722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a201f72bbd561c3%3A0xab5c70e76a7b5a!2sNational%20Institute%20of%20Technology%2C%20Rourkela!5e0!3m2!1sen!2sin!4v1626506876509!5m2!1sen!2sin"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
@@ -22,8 +22,8 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                97 Warren St. <br />
-                New York, NY 10007
+              <b>National Institute of Technology, Rourkela<br />
+                 Orissa , 769001</b>
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -31,16 +31,16 @@ export default function Contact() {
                 EMAIL
               </h2>
               <h4 href='#' className="text-indigo-400 leading-relaxed">
-                reedbarger@email.com
+                abhishek.muddu26@gmail.com
               </h4>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">123-456-7890</p>
+              <p className="leading-relaxed">8919372262</p>
             </div>
           </div>
         </div>
-        <form
+        {/* <form
           netlify
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
@@ -48,8 +48,7 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -90,7 +89,7 @@ export default function Contact() {
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );

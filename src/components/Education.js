@@ -9,12 +9,10 @@ export default function Education() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            Education
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Schools where I have studied and my performance 
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -36,7 +34,13 @@ export default function Education() {
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {edu.title}
                   </h1>
-                  <p className="leading-relaxed">{edu.description}</p>
+                  <p className="leading-relaxed">
+                    <b>Year of Study</b> : {edu.description.YearOfStudy}<br></br>
+                    <b>Department</b> : {edu.description.Department}<br></br>
+                    <b>Specialisation</b> : {edu.description.Specialisation}<br></br>
+                    <b>CGPA/Percentage</b> : {edu.description.CGPA}
+                    
+                  </p>
                 </div>
               </div>
             </a>
