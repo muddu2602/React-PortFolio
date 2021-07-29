@@ -58,7 +58,7 @@ export const projects = [
         YearOfStudy: '2020 - 2022',
         Department : 'Computer Science',
         Specialisation : 'Information Security',
-        CGPA : '0.0',
+        CGPA : '8.43',
       },
       image: "./images/Master.png",
       link: "/#education",
@@ -67,7 +67,7 @@ export const projects = [
       title: "Bachelors's Degree",
       subtitle: "JNTU Vizianagaram",
       description:{
-        YearOfStudy: '2015 - 2019',
+        YearOfStudy: '2015 -git 2019',
         Department : 'Information Technology',
         Specialisation : 'Information Technology',
         CGPA : '8.01',
